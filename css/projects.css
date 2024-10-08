@@ -1,0 +1,29 @@
+.form-control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-control .form-label {
+    width: 20%;
+}
+
+.form-control .form-input {
+    width: 80%;
+}
+
+.form-control .form-input input,
+.form-control .form-input textarea,
+.form-control .form-input select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.submit-btn{
+    margin-top: 20px;
+}

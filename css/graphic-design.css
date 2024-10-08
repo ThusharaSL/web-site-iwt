@@ -1,0 +1,162 @@
+* {
+
+    padding: auto;
+    margin: auto;
+    background-size: cover;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+
+.Graphic-head {
+    padding: 35px;
+    /* background: linear-gradient(69deg, rgb(60, 214, 168), rgb(225, 0, 255), rgb(223, 245, 145), rgba(71, 218, 223, 0.644));*/
+    border-radius: 50px;
+    font-style: italic;
+    color: red;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    border: 3px solid #171f31;
+
+
+}
+
+.Graphic-Body {
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+
+
+.btn-grapich-disign {
+    background: #000;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-grapich-disign a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image-contanainer {
+
+    background-color: #ffffff;
+    padding: 1px;
+    border-radius: 8px;
+    /*border: 3px solid #9decdf;*/
+    /*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tool {
+    padding: 50px;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background: #daa45e 0 fixed no-repeat;
+    border-radius: 50px;
+    font-style: italic;
+    color: red;
+    width: 800px;
+    max-width: 1200px;
+
+    text-align: center;
+    background-size: cover;
+    transform: translateY(-50%)
+}
+
+.tool-h1 {
+    margin: 3px;
+    padding: 3px 0 3px;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    transform: translateY(-45%);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+    mix-blend-mode: overlay;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.tool-para {
+    width: 70px;
+}
+
+
+.image-holder {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.image-holder.img-1 {
+    background-image: url("../img/graphic-design/Travel Brochures.jpg") !important;
+}
+
+.image-holder.img-2 {
+    background-image: url("../img/graphic-design/Brochure-Designing-.jpg") !important;
+}
+
+.image-holder.img-3 {
+    background-image: url("../img/graphic-design/stationery-design-min.jpg") !important;
+}
+
+.image-holder.img-4 {
+    background-image: url("../img/graphic-design/Leaflets and Flyer Design.jpg") !important;
+}
+
+.image-holder.img-5 {
+    background-image: url("../img/graphic-design/advert-design.jpg") !important;
+}
+
+.image-holder.img-6 {
+    background-image: url("../img/graphic-design/Banner-Design.jpg") !important;
+}
+
+.image-holder.img-8 {
+    background-image: url("../img/graphic-design/Web Graphics1.jpg") !important;
+}
+
+.image-holder.img-7 {
+    background-image: url("../img/graphic-design/Poster Design.jpg") !important;
+}
+
+.image-holder.img-9 {
+    background-image: url("../img/graphic-design/Layout Design.jpg") !important;
+}
+
+.image-holder.img-10 {
+    background-image: url("../img/graphic-design/Restaurant Material.jpg") !important;
+}
+
+.image-holder.img-11 {
+    background-image: url("../img/graphic-design/Event Promo Material.png") !important;
+}
+
+
+.btn-graphic-design a{
+    color: #fff !important;
+    text-decoration: none;
+}

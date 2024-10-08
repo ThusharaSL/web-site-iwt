@@ -1,0 +1,37 @@
+.admin-side-menu{
+    width: 20%;
+    padding: 15px;
+    height: auto;
+    border-radius: 5px;
+    min-height: 584px;
+}
+
+.admin-side-menu-item ul {
+    list-style: none;
+}
+
+.admin-side-menu-item ul li .nav_btns{
+    background: #fff;
+    border: 1px solid #171f31;
+    border-radius: 20px;
+    padding: 1px 20px;
+    width: 100%;
+    text-align: start;
+    cursor: pointer;
+    color: #000;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admin-side-menu-item ul li .nav_btns:hover{
+    background: #171f31;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.admin-side-menu-item ul li .nav_btns.active{
+    background: #171f31;
+    color: #fff;
+}

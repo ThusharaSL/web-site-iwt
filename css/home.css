@@ -1,0 +1,123 @@
+.column-item {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.column-wrapper {
+    gap: 50px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+.client-logo {
+    width: 100px;
+    height: 40px;
+    background: #999999;
+}
+
+.hero {
+    background-image: url("../img/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text-container{
+    position: absolute;
+    bottom: 100px;
+    width: 100vw;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
+.hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero .hero-txt{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.image-holder{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain !important;
+    background-color: #f0f0f0;
+    position: relative;
+    border-radius: 5px;
+}
+
+.home .image-holder.img-1{
+    background-image: url("../img/home/branding-identity.png") !important;
+}
+
+.home .image-holder.img-2{
+    background-image: url("../img/home/brand-identify-2.png") !important;
+}
+
+.home .image-holder.img-3{
+    background-image: url("../img/home/inbound_campaigns.png") !important;
+}
+
+.home .image-holder.img-4{
+    background-image: url("../img/home/creative-design.png") !important;
+}
+
+.hero-overlay {
+    position: relative;
+    height: 80vh;
+    background-image: url('../img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-text-container {
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+}
+
+.hero-txt {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
